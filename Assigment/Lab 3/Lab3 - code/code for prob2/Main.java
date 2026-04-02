@@ -1,5 +1,4 @@
 package lesson3.labs.prob2;
-import java.util.*;
 
 public class Main {
 
@@ -39,7 +38,7 @@ public class Main {
 			bldgs[3].addApartment(a);
 		}
 
-		LandLord landlord = new LandLord();
+		Landlord landlord = new Landlord();
 		for(Building b: bldgs) {
 			landlord.addBuilding(b);
 		}

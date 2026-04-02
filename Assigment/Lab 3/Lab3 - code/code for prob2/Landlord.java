@@ -3,10 +3,10 @@ package lesson3.labs.prob2;
 import java.util.ArrayList;
 import java.util.List;
 
-public class LandLord {
+public class Landlord {
     private List<Building> buildings;
 
-    public LandLord() {
+    public Landlord() {
         buildings = new ArrayList<>();
     }
 
