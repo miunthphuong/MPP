@@ -1,22 +1,22 @@
 package prob1;
 
+import java.util.List;
+
 public class Admin {
-	public static double computeTotalRent(Object[] properties) {
-		double totalRent = 0;
-		for (Object o : properties) {
-			if (o instanceof House) {
-				House h = (House) o;
-				totalRent += h.computeRent();
-			}
-			else if (o instanceof Condo) {
-				Condo h = (Condo) o;
-				totalRent += h.computeRent();
-			}
-			else if (o instanceof Trailer) {
-				Trailer h = (Trailer) o;
-				totalRent += h.computeRent();
-			}	
+
+	public static double computeTotalRent(List<Property> properties) {
+		double total = 0;
+		for (Property p : properties) {
+			total += p.computeRent(); // ✅ polymorphism here
 		}
-		return totalRent;
+		return total;
+	}
+
+	public static void listByCity(List<Property> properties, String city) {
+		for (Property p : properties) {
+			if (p.getAddress().getCity().equalsIgnoreCase(city)) {
+				System.out.println(p.getAddress());
+			}
+		}
 	}
 }
