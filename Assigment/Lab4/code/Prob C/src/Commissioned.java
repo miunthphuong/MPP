@@ -19,9 +19,13 @@ public class Commissioned extends Employee {
     @Override
     protected double calcGrossPay(int month, int year) {
         double totalSales = 0;
+
         for (Order o : orders) {
-            totalSales += o.getOrderAmount();
+            if (o.getMonth() == month && o.getYear() == year) {
+                totalSales += o.getOrderAmount();
+            }
         }
+
         return baseSalary + (commission * totalSales);
     }
 }

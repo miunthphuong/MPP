@@ -6,15 +6,14 @@ public class Paycheck {
     private final double medicare;
     private final double socialSecurity;
 
-    public Paycheck(double grossPay) {
+    public Paycheck(double grossPay, double fica, double state,
+                    double local, double medicare, double socialSecurity) {
         this.grossPay = grossPay;
-
-        // Simple tax calculations (example)
-        this.fica = grossPay * 0.0765;
-        this.state = grossPay * 0.05;
-        this.local = grossPay * 0.02;
-        this.medicare = grossPay * 0.0145;
-        this.socialSecurity = grossPay * 0.062;
+        this.fica = fica;
+        this.state = state;
+        this.local = local;
+        this.medicare = medicare;
+        this.socialSecurity = socialSecurity;
     }
 
     public double getNetPay() {
