@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f5aa420a-6c2e-4a0e-b7cc-7d30872e2765" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/prob1/test/BookRuleSetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prob1/test/CDRuleSetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prob2/src/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prob2/src/DuckSubclasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prob2/src/FlyBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prob2/src/FlyImplementations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prob2/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prob2/src/QuackBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prob2/src/QuackImplementations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prob3/src/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prob3/src/Figure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prob3/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prob3/src/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prob3/src/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prob4/src/Prob4/CustOrderFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prob4/src/Prob4/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prob4/src/Prob4/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prob4/src/Prob4/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prob4/src/Prob4/extpackage/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prob1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Prob1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BookRuleSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BookRuleSetTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BookWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CDRuleSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CDWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RuleException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RuleSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RuleSetFactory.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="3Bv6iqWzWPTe1S55vVfN3aHNa7r" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BookWindow.executor": "Run",
+    "Application.CDWindow.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.BookRuleSetTest.executor": "Run",
+    "JUnit.CDRuleSetTest.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/miu/Desktop/MIU/02. MPP/Resource/GIT/MPP/Assigment/Lab5/Lab 5 - Code/Prob1"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="lesson5.labs.prob1.gui" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.lesson5.labs.prob1.test in Prob1">
+    <configuration name="BookRuleSetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Prob1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson5.labs.prob1.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson5.labs.prob1.test" />
+      <option name="MAIN_CLASS_NAME" value="lesson5.labs.prob1.test.BookRuleSetTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CDRuleSetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Prob1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson5.labs.prob1.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson5.labs.prob1.test" />
+      <option name="MAIN_CLASS_NAME" value="lesson5.labs.prob1.test.CDRuleSetTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lesson5.labs.prob1.test in Prob1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Prob1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson5.labs.prob1.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson5.labs.prob1.test" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.lesson5.labs.prob1.test in Prob1" />
+        <item itemvalue="JUnit.CDRuleSetTest" />
+        <item itemvalue="JUnit.BookRuleSetTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5aa420a-6c2e-4a0e-b7cc-7d30872e2765" name="Changes" comment="" />
+      <created>1775357326889</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1775357326889</updated>
+    </task>
+    <servers />
+  </component>
+</project>
