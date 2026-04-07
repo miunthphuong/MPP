@@ -5,37 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5aa420a-6c2e-4a0e-b7cc-7d30872e2765" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/prob1/test/BookRuleSetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prob1/test/CDRuleSetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prob2/src/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prob2/src/DuckSubclasses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prob2/src/FlyBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prob2/src/FlyImplementations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prob2/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prob2/src/QuackBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prob2/src/QuackImplementations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prob3/src/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prob3/src/Figure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prob3/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prob3/src/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prob3/src/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prob4/src/Prob4/CustOrderFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prob4/src/Prob4/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prob4/src/Prob4/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prob4/src/Prob4/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prob4/src/Prob4/extpackage/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prob1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Prob1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BookRuleSet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BookRuleSetTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BookWindow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CDRuleSet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CDWindow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RuleException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RuleSet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RuleSetFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +44,7 @@
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.BookRuleSetTest.executor": "Run",
     "JUnit.CDRuleSetTest.executor": "Run",
+    "JUnit.lesson5.labs.prob1.test in Prob1.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
