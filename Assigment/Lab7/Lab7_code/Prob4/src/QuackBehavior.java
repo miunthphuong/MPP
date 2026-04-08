@@ -1,3 +1,5 @@
 public interface QuackBehavior {
-    void quack();
+    default void quack() {
+        System.out.println("  quacking");
+    }
 }

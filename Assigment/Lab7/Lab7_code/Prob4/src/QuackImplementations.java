@@ -4,14 +4,16 @@ class Quack implements QuackBehavior {
     }
 }
 
-class Squeak implements QuackBehavior {
-    public void quack() {
+interface Squeak extends QuackBehavior {
+    @Override
+    default void quack() {
         System.out.println("  squeaking");
     }
 }
 
-class MuteQuack implements QuackBehavior {
-    public void quack() {
+interface MuteQuack extends QuackBehavior {
+    @Override
+    default void quack() {
         System.out.println("  cannot quack");
     }
 }

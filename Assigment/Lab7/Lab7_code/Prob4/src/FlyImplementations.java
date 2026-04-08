@@ -4,8 +4,9 @@ class FlyWithWings implements FlyBehavior {
     }
 }
 
-class CannotFly implements FlyBehavior {
-    public void fly() {
+interface CannotFly extends FlyBehavior {
+    @Override
+    default void fly() {
         System.out.println("  cannot fly");
     }
 }

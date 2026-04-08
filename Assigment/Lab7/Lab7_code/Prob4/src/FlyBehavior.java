@@ -1,3 +1,5 @@
 public interface FlyBehavior {
-    void fly();
+    default void fly() {
+        System.out.println("  fly with wings");
+    }
 }
