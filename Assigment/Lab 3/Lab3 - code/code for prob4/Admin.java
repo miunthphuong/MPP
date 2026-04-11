@@ -7,7 +7,7 @@ public class Admin {
 	public static double computeTotalRent(List<Property> properties) {
 		double total = 0;
 		for (Property p : properties) {
-			total += p.computeRent(); // ✅ polymorphism here
+			total += p.computeRent();
 		}
 		return total;
 	}
