@@ -1,6 +1,6 @@
 package prob3;
 
-/*
+
 //prob3.a
 import java.util.stream.Stream;
 import java.math.BigInteger;
@@ -11,15 +11,8 @@ public class PrimeStream {
         BigInteger b = BigInteger.valueOf(n);
         return b.nextProbablePrime().intValue();
     });
-}
-*/
 
 //prob3.b
-import java.util.stream.Stream;
-import java.math.BigInteger;
-
-public class PrimeStream {
-
     // Method to generate a fresh stream of primes each time it is called
     public Stream<Integer> getPrimesStream() {
         return Stream.iterate(2, n -> BigInteger.valueOf(n).nextProbablePrime().intValue());
