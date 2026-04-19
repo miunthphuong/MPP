@@ -1,4 +1,4 @@
-package lesson11.labs.prob2;
+package prob2;
 import java.util.*;
 public class Group<T> {
 	private T specialElement;
