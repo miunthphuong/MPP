@@ -1,7 +1,6 @@
-package lesson09.labs.prob1.partC;
+package Prob1B;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 
 public class EmployeeInfo {
@@ -13,19 +12,23 @@ public class EmployeeInfo {
 	 * instance if the two instances have the same name and salary.
 	 */
 	public static List<Employee> removeDuplicates(List<Employee> employees) {
-		HashMap<Employee, Employee> tracker = new HashMap<>();
 		List<Employee> noDupsList = new ArrayList<>();
-		for(int i = 0; i < employees.size(); ++i) {
-			Employee e = employees.get(i);
-			if(!tracker.containsKey(e)) {
-				tracker.put(e, e);
-				noDupsList.add(e);
+		noDupsList.add(employees.get(0));
+		for(int i = 1; i < employees.size(); ++i) {
+			if(!inList(employees.get(i), noDupsList)) {
+				noDupsList.add(employees.get(i));
 			}
 		}
 		return noDupsList;
 	}
 	
-	
+	/** Returns true if e is in the list emps, false otherwise */
+	private static boolean inList(Employee e, List<Employee> emps) {
+		for(Employee emp : emps) {
+			if(e.equals(emp)) return true;
+		}
+		return false;
+	}
 	
 	/**
 	 * Tests to see if solution is correct
@@ -83,7 +86,7 @@ public class EmployeeInfo {
 	
 	/**
 	 * Returns true if the two lists have the same size and contain exactly the same
-	 * elements (this is really just set equality)
+	 * elements (this is just set equality)
 	 */
 	public static boolean listsAreEqual(List<Employee> l1, List<Employee> l2) {
 		if(l1.size() != l2.size()) return false;

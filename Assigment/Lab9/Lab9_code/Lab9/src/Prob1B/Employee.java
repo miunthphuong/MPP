@@ -1,4 +1,4 @@
-package lesson09.labs.prob1.partB;
+package Prob1B;
 
 public class Employee {
 	private String name;
@@ -24,12 +24,12 @@ public class Employee {
 	public String toString() {
 		return "(" + name + ", " + salary + ")";
 	}
-	
-	public boolean equals(Employee e) {
-		return e.name.equals(name) && e.salary == salary;
+
+	@Override
+	public boolean equals(Object ob) {
+		if (ob == null) return false;
+		if (!(ob instanceof Employee)) return false;
+		Employee e = (Employee)ob;
+		return e.getName().equals(this.name) && e.getSalary() == this.salary;
 	}
-//	public boolean equals(Object ob) {
-//		Employee e = (Employee)ob;
-//		return e.name.equals(name) && e.salary == salary;
-//	}
 }

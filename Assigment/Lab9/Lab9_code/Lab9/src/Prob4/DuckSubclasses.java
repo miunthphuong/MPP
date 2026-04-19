@@ -1,3 +1,5 @@
+package Prob4;
+
 class MallardDuck extends Duck implements FlyBehavior, QuackBehavior {
     public void display() { System.out.println("  display"); }
 
