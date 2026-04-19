@@ -125,5 +125,6 @@ public class Main {
                 ));
         studentCourseMap.forEach((name, courses) ->
                 System.out.println(name + ": " + courses));
+
     }
 }
